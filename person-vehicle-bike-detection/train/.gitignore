@@ -1,0 +1,6 @@
+open_model_zoo
+training_extensions
+models_src
+models_ir
+python-env
+work_dir
