@@ -19,9 +19,9 @@ pip3 install -e ote/
 cd -
 
 mkdir models_src
-cd models_src
-wget 
 ```
+
+``Note`` GPU env setup fail[Only match torch1.8.1 version's cuda work], I hard code to CPU to verify pass. Please refer: https://download.pytorch.org/whl/torch_stable.html
 
 #### Refer
 [1] https://github.com/openvinotoolkit/open_model_zoo/tree/master/models/intel/person-vehicle-bike-detection-2003 <br>
