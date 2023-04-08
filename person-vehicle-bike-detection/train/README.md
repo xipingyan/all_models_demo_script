@@ -8,13 +8,16 @@
 cd person-vehicle-bike-detection\train
 python3 -m venv python-env && source python-env/bin/activate
 git clone https://github.com/openvinotoolkit/training_extensions.git
+<!-- https://gitee.com/openvinotoolkit-prc/training_extensions.git -->
 git checkout -b misc remotes/origin/misc
 export OTE_DIR=`pwd`/training_extensions
 
 git clone https://github.com/openvinotoolkit/open_model_zoo --branch develop
+<!-- https://gitee.com/openvinotoolkit-prc/open_model_zoo.git -->
 export OMZ_DIR=`pwd`/open_model_zoo
 
 cd training_extensions
+pip install --upgrade pip   # Upgrade to latest.
 pip3 install -e ote/
 cd -
 
