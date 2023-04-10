@@ -1,4 +1,5 @@
 # Person vehicle bike detection model
+OpenVINO fine-tune need cuda 11.1, but linux kernel should <=5.9, so recommend to install Ubuntu20.04.2.
 
 ## person-vehicle-bike-detection-2003
 
