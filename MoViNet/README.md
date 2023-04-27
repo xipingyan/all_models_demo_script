@@ -16,3 +16,6 @@ test_stream2.py # frame by frame to classify
 # Refer
 https://www.tensorflow.org/hub/tutorials/movinet    <br>
 https://tensorflow.google.cn/hub/tutorials/movinet?hl=zh-cn     <br>
+
+``pytorch version:``
+https://github.com/Atze00/MoViNet-pytorch
