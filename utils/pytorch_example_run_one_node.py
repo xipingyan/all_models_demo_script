@@ -7,7 +7,7 @@ src = torch.arange(1, 11).reshape((2, 5))
 index = torch.tensor([[0, 1, 2, 0]])
 dst = torch.zeros(3, 5, dtype=src.dtype)
 
-print("ndim = ", 0)
+print("dim = ", 0)
 print("src=\n", src)
 print("index=\n", index)
 print("src dst=\n", dst)
